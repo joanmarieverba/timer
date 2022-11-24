@@ -4,6 +4,9 @@ body {
   background-color: azure;
 }
 
+.clock {
+  display: inline-block;
+}
 
 .logo {
   padding-right: 5px;
