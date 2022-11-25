@@ -20,7 +20,7 @@ body {
 }
 
 .part {
-  font-family: Merriweather
+  font-family: 'Merriweather Sans', sans-serif;
   font-size: 36px;
   font-weight: bold;
 }
