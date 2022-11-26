@@ -13,6 +13,7 @@ body {
   border: none;
   color: white;
   background: #8208e6;
+  cursor: pointer;
 }
 
 .clock {
