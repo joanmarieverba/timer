@@ -1,8 +1,10 @@
 "use strict"
 
 
+
 function changeToNumber (mmss){
-  
+  let minAndSec = mmss;
+
 
 };
 
