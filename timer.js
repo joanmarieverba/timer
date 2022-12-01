@@ -1,5 +1,13 @@
 "use strict"
 
+
+function changeToNumber (mmss){
+
+
+};
+
+
+
 function startCountdown(seconds) {
   let counter = seconds;
     
