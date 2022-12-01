@@ -1,9 +1,14 @@
 "use strict"
 
-
+let minAndSec;
+let min;
+let sec;
 
 function changeToNumber (mmss){
-  let minAndSec = mmss;
+  
+  minAndSec = mmss;
+  min = minAndSec.substr(0,2);
+  sec = minAndSec.substr(3,2);
 
 
 };
