@@ -5,6 +5,7 @@ let min;
 let sec;
 let minNum;
 let secNum;
+let totalSec;
 
 function changeToNumber (mmss){
   
@@ -15,6 +16,8 @@ function changeToNumber (mmss){
   minNum = parseInt(min, 10);
   secNum = parseInt(sec, 10);
   //change minutes and seconds to number of seconds
+  totalSec = secNum + (minNum * 60);
+
 
 
 
