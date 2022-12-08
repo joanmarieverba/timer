@@ -14,6 +14,7 @@ function changeToNumber (mmss){
   // change to number
   minNum = parseInt(min, 10);
   secNum = parseInt(sec, 10);
+  //change minutes and seconds to number of seconds
 
 
 
