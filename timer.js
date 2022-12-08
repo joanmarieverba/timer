@@ -3,12 +3,18 @@
 let minAndSec;
 let min;
 let sec;
+let minNum;
+let secNum;
 
 function changeToNumber (mmss){
   
   minAndSec = mmss;
   min = minAndSec.substr(0,2);
   sec = minAndSec.substr(3,2);
+  // change to number
+  minNum = parseInt(min, 10);
+  secNum = parseInt(sec, 10);
+
 
 
 };
