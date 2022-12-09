@@ -18,7 +18,7 @@ function changeToNumber (mmss){
   //change minutes and seconds to number of seconds
   totalSec = secNum + (minNum * 60);
 
-
+  startCountdown(totalSec);
 
 
 };
