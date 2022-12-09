@@ -7,6 +7,20 @@ let minNum;
 let secNum;
 let totalSec;
 
+function startCountdown(seconds) {
+  let counter = seconds;
+
+  const interval = setInterval(() => {
+    console.log(counter);
+    counter--;
+
+    if (counter < 0) {
+      clearInterval(interval);
+      console.log('Ding!');
+    }
+  }, 1000);
+};
+
 function changeToNumber (mmss){
   
   minAndSec = mmss;
@@ -25,17 +39,5 @@ function changeToNumber (mmss){
 
 
 
-function startCountdown(seconds) {
-  let counter = seconds;
-    
-  const interval = setInterval(() => {
-    console.log(counter);
-    counter--;
-      
-    if (counter < 0 ) {
-      clearInterval(interval);
-      console.log('Ding!');
-    }
-  }, 1000);
-};
+
 
