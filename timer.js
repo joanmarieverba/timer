@@ -22,6 +22,8 @@ function startCountdown(seconds) {
 };
 
 function changeToNumber (mmss){
+
+  console.log ("mmss ", mmss);
   
   minAndSec = mmss;
   min = minAndSec.substr(0,2);
