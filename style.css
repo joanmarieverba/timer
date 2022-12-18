@@ -27,6 +27,7 @@ body {
 
 .clock {
   margin-top: 24px;
+  margin-left: 15vw; 
   display: inline-block;
   padding: 24px 32px;
   border-radius: 30px;
